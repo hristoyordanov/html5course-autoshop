@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/add.js"></script>
+        <title>Добавяне</title>
+    </head>
+    <body onLoad="init()"> 
+        <br />
+        <h1>Добавяне</h1>
+        <center>
+          <h2><a href = "index.html" >Начало</a>
+          <br /><br /><a href = "search1.html" >Търсене по 1 характеристика</a>
+          <br /><br /><a href = "search2.html" >Търсене по всички характеристики</a>
+          <br /><br /><a href = "purchase.html" >Покупка</a>
+          </h2>
+
+
+         <br/><br/>
+         <p>
+          Добавяне на автомобил:
+         </p>
+         <p>
+          Номер: <input type="number" value="" id="id"></input>
+         </p>
+
+         <p>
+           Марка: <input type="text" value="" id="brand"></input>
+         </p>
+
+        <p>
+          Модел: <input type="text" value="" id="model"></input>
+        </p>
+        <p>
+          Горивo: <input type="text" value="" id="fuel"></input>
+        </p>
+        <p>
+          Брой врати: <input type="number" value="" id="doors"></input>
+        </p>
+        <p>
+          Година: <input type="number" value="" id="year"></input>
+        </p>
+        <p>
+          Цена: <input type="text" value="" id="price"></input>
+        </p>
+        <p>
+          <button id="buttonAdd">Добави</button>
+        </p>
+
+        <p id="listOfCars"></p>
+      </center>
+    </body>
+</html>
